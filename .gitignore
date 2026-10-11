@@ -1,0 +1,33 @@
+# Datasets
+data/
+
+# Model weights, adapters and checkpoints
+results/lora/best_adapter/
+results/lora/checkpoint-*/
+results/lora_r8/best_adapter/
+results/lora_r8/checkpoint-*/
+results/qlora/best_adapter/
+results/qlora/checkpoint-*/
+
+# Generated prediction files can be large
+results/*/*predictions*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+logs/
+*.log
+.ipynb_checkpoints/
+
+# Experiment outputs and model artifacts
+results/
+

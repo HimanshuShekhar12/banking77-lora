@@ -1,0 +1,49 @@
+# =========================
+# Data / Numerical
+# =========================
+numpy
+pandas
+scikit-learn
+scipy
+pyarrow
+
+# =========================
+# Deep Learning
+# =========================
+torch
+torchvision
+
+# =========================
+# Hugging Face
+# =========================
+transformers
+datasets
+huggingface_hub
+tokenizers
+safetensors
+
+# =========================
+# Fine-tuning / PEFT
+# =========================
+peft
+accelerate
+bitsandbytes
+
+# =========================
+# Training / Evaluation
+# =========================
+evaluate
+tqdm
+pyyaml
+
+# =========================
+# Experiment Analysis
+# =========================
+matplotlib
+seaborn
+
+# =========================
+# Utilities
+# =========================
+sentencepiece
+protobuf
